@@ -1,7 +1,5 @@
 # Pytorch version of End2end image reconstruction
 
----
-
 This is a Pytorch implementation of [Shen, Dwivedi, Majima, Horikawa, and Kamitani (2019) End-to-end deep image reconstruction from human brain activity. Front. Comput. Neurosci](https://www.frontiersin.org/articles/10.3389/fncom.2019.00021/full)
 
 For Caffe version, see:
@@ -13,9 +11,6 @@ https://pytorch.org/vision/stable/_modules/torchvision/models/alexnet.html
 
 
 ## Requirements
-
----
-
 - pytorch
 - torchvision
 - Python 3
@@ -24,15 +19,9 @@ https://pytorch.org/vision/stable/_modules/torchvision/models/alexnet.html
 - Pillow (PIL)
 
 ## Data
-
----
-
 Please refer to https://github.com/KamitaniLab/End2EndDeepImageReconstruction/tree/master/data
 
 ## Usage
-
----
-
 For training a new model, run
 `python end2end_train.py`
 
@@ -41,17 +30,11 @@ For testing, run
 
 
 ## Notes
-
----
-
 Because the data size is not large, the current code loads all fMRI data and all images at once.
 
 TODO: Load data on the fly.
 
 ## References
-
----
-
 [1] We used the framework proposed in this article: Dosovitskiy & Brox (2016) Generating Images with Perceptual Similarity Metrics based on Deep Networks. Advances in Neural Information Processing Systems (NIPS).
 
 The article is available at: http://arxiv.org/abs/1602.02644
