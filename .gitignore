@@ -107,14 +107,7 @@ venv.bak/
 # checkpoint
 *.ckpt
 
-# png
-*.png
-*.tif
-*.tiff
-*.JPEG
-*.JPG
-*.jpeg
-*.jpg
+
 *.mat
 
 # expr
