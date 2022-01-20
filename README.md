@@ -1,6 +1,8 @@
-# Pytorch version of End2end image reconstruction
+# Pytorch version of End-to-end deep image reconstruction
 
 This is a Pytorch implementation of [Shen, Dwivedi, Majima, Horikawa, and Kamitani (2019) End-to-end deep image reconstruction from human brain activity. Front. Comput. Neurosci](https://www.frontiersin.org/articles/10.3389/fncom.2019.00021/full)
+
+![End-to-end deep image reconstruction](./overview.jpeg "Schematics of End-to-end deep image reconstruction")
 
 For Caffe version, see:
 https://github.com/KamitaniLab/End2EndDeepImageReconstruction
